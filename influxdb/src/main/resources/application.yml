@@ -1,0 +1,11 @@
+server:
+  port: 8010
+spring:
+  influx:
+    url: http://localhost:8086
+    user: youwzhen
+    username: youwzhen
+    password: P@ss1234
+    database: mytest
+    retention_policy: default
+    retention_policy_time: 30d
